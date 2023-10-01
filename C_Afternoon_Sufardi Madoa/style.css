@@ -1,0 +1,309 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #03000E;
+
+}
+ul{
+     list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+
+nav{
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+    box-shadow: 2px 2px 12px black;
+   
+
+} 
+
+nav ul{
+    display: flex;   
+    
+}
+nav ul li{
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+    margin-left: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 650;
+}
+nav ul li:nth-child(4){
+    margin-right: 10px;
+}
+nav ul li a:hover{
+    color: #00da07;
+    transition: 0.5s;
+
+}
+.log{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+   
+}
+.logo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 252, 252);
+    font-weight: bold;
+}
+.logo p:nth-child(2){
+    color: #00da07;
+    margin-left: 5px;
+}
+.home p{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+.about1{
+    max-width: 30%;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align:left;
+    font-weight:100px;
+    /* background-color: #00da07; */
+}
+.about1 h3,h6{
+    margin: 0 ;
+}
+.about1 h3{
+    font-size: 30px;
+}
+.about1 h6{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #b0b0b06d;
+}
+.about1 a i{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+.about1 a .fa-instagram:hover{
+    color: #f5674a;
+    transition: 0.5s;
+}
+.about1 a .fa-facebook:hover{
+    color: #1934ff;
+    transition: 0.5s;
+}
+.about1 a .fa-twitter:hover{
+    color: #2637bc;
+    transition: 0.5s;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items:center;
+    flex-wrap: nowrap;
+
+}
+.pictures{
+    width: 300px;
+    margin-right: 50px;
+   
+}
+.btn{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn i{
+    font-size: 20px;
+}
+.contac{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #17A60B;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+.contac:hover{
+    background-color: #1bda09;
+    color: #090909;
+    transition: 0.5s;
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    width: 70%;
+    text-align: center;
+}
+
+.Myskill{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.theSkill{
+    width: 70%;
+    border-radius: 20px;
+    background-color: rgba(1, 17, 31, 0.273);
+    box-shadow: 4px 3px 5px rgba(0, 0, 62, 0.655);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    /* background-color: #00da07; */
+}
+.skil{
+    display: flex;
+    width: 250px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: #979797c6;
+    flex-wrap: wrap;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    
+}
+
+.skil .desc H5{
+    font-size: 15PX;
+    /* padding: 5px;
+    margin-top:-5px ; */
+    margin: 0;
+
+}
+.skil .desc p{
+    font-size: 10px;
+    color: rgb(37, 37, 37);
+
+}
+.skil .desc{
+    /* background-color: black; */
+    display: block;
+    height: 30px;
+}
+.skil iconify-icon{
+    font-size: 35px;
+    margin-right: 2px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+}
+.con{
+    display: flex;
+    background-color: aliceblue;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 10px;
+   background-color:  rgba(1, 17, 31, 0.273);
+   box-shadow: 4px 3px 5px rgba(11, 54, 1, 0.655);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 80%;
+    min-width: 80%;
+    color: #ffffff;
+}
+
+form input,textarea, button{
+    border-radius: 5px;
+    background-color: #c3c3c359;
+    
+}
+form input,button{
+    height: 25px;
+}
+form input:hover,textarea:hover, button:hover{
+    background-color: #ffffff;
+}
+form button{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    background-color: #2e2e2e4d;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.footer img{
+    width: 200px;
+}
+.footer .about3{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.follow{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.follow a i{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.follow a .fa-instagram:hover{
+    color: #f5674a;
+    transition: 0.5s;
+}
+.follow a .fa-facebook:hover{
+    color: #1934ff;
+    transition: 0.5s;
+}
+.follow a .fa-twitter:hover{
+    color: #2637bc;
+    transition: 0.5s;
+}
